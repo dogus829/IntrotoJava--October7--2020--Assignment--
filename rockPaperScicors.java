@@ -13,14 +13,20 @@ public class rockPaperScicors {
         // Condition
         if (computerRandomNum == userNum) {
             System.out.println("Draw");
-        } else if (computerRandomNum == 0 && userNum == 1) {
+        } else if (userNum == 0 && computerRandomNum == 1) {
+            System.out.println("Computer won, Rock beats Scissors.");
+        } else if (userNum == 0 && computerRandomNum == 2) {
+            System.out.println("Computer lost, Scissors beats Paper.");
+        } else if (computerRandomNum == 2 && userNum == 1) {
+            System.out.println("Computer lost, Scissors beats Paper.");
+        }
+
+        if (computerRandomNum == 0 && userNum == 1) {
             System.out.println("Computer lost, Rock beats Scissors.");
         } else if (computerRandomNum == 0 && userNum == 2) {
             System.out.println("Computer won, Scissors beat papers.");
         } else if (computerRandomNum == 1 && userNum == 2) {
             System.out.println("Computer lost, Paper beats Rocks");
-        } else {
-            System.out.println("Not applicable");
         }
 
     }
