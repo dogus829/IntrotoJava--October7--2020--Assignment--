@@ -25,7 +25,7 @@ public class perimiterOfaTriangle {
         if (e1 + e2 < e3 || e2 + e3 < e1 || e1 + e3 < e2) {
             System.out.println("Invalid");
         } else {
-            System.out.println(e1 * e2 * e3);
+            System.out.println(e1 + e2 + e3);
         }
 
     }
