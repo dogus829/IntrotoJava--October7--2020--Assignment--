@@ -5,7 +5,7 @@ public class daysInMonths {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
 
-    System.out.println("Enter a number between a YEAR.");
+    System.out.println("Enter YEAR.");
 
     int year = input.nextInt();
 
